@@ -1,3 +1,25 @@
 ion-content ion-toolbar {
   --background: translucent;
 }
+ion-card-content{
+  padding: 10px
+}
+
+ion-card-header{
+  padding-top: 0;
+
+}
+
+ion-card-title {
+  font-size: 16px;
+  color: blue;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  text-align: right;
+  margin-bottom: 5px;
+}
+
+ion-card-subtitle{
+font-size: 14px;
+color:  black;
+
+}
