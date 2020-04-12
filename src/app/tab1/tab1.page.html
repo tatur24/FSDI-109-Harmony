@@ -9,7 +9,7 @@
 <ion-content [fullscreen]="true">
 
 
- <ion-card *ngFor="let message of getMessages()">
+ <ion-card *ngFor="let message of displayMessage">
 
 
 
@@ -20,6 +20,7 @@
    <ion-card-header>
     <ion-card-subtitle>{{message.text}}</ion-card-subtitle>
      <ion-card-title>{{message.from}}</ion-card-title>
+     <span>{{message.createdOn | date:'MM/dd/yyyy hh:mm'}}</span>
      
     </ion-card-header>
    
